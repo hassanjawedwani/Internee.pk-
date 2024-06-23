@@ -1,0 +1,32 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  font-size: 1.1rem;
+}
+
+
+#logo {
+  width: 100%;
+  max-width: 240px;
+  padding: 20px 0;
+}
+
+#navbar {
+  display: flex;
+  gap: 30px;  
+}
+
+#navbar > li {
+  list-style: none;
+}
+
+.navlink {
+  text-decoration: none;
+  font-weight: bold ;
+}
+
+.button1 {
+  background-color: #43A724;
+}
