@@ -18,7 +18,7 @@
 
 .typeWriter {
   color: green;
-  font-size: 2.7rem;
+  font-size: 2.9rem;
 }
 
 .typeWriterContainer {
@@ -28,4 +28,25 @@
 
 #heroImage {
   width: 100%;
+}
+
+
+.navlink {
+  text-decoration: none;
+  font-weight: bold ;
+  color: #434343;
+}
+
+.button1 {
+  background-color: #43A724;
+  color: #fff;
+  border-radius: 30px;
+  padding: 17px 35px;
+}
+
+.button2 {
+  border: 3px solid #43A724;
+  color: #43A724;
+  border-radius: 30px;
+  padding: 14px 35px;
 }
