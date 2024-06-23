@@ -1,0 +1,31 @@
+#heroContainer {
+  display: flex;
+  margin: 40px 0;   
+}
+
+
+#heroContainer div {
+  width: 50%;
+} 
+
+/* #heroContainer div:first-child {
+  padding: 0 100px;
+} */
+
+#herContainer div:first-child > h1 {
+  font-size: 1.8rem;
+}
+
+.typeWriter {
+  color: green;
+  font-size: 2.7rem;
+}
+
+.typeWriterContainer {
+  min-height: 120px;
+
+}
+
+#heroImage {
+  width: 100%;
+}

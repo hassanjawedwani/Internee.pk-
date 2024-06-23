@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: lightblue;
   font-size: 1.1rem;
+  
 }
 
 
@@ -20,13 +20,25 @@
 
 #navbar > li {
   list-style: none;
+  
 }
 
 .navlink {
   text-decoration: none;
   font-weight: bold ;
+  color: #434343;
 }
 
 .button1 {
   background-color: #43A724;
+  color: #fff;
+  border-radius: 30px;
+  padding: 14px;
+}
+
+.button2 {
+  border: 3px solid #43A724;
+  color: #43A724;
+  border-radius: 30px;
+  padding: 11px;
 }
