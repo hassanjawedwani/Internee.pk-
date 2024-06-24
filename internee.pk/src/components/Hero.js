@@ -26,12 +26,12 @@ const Hero = () => {
             </h1>   
           </div>
           <p style={{fontSize: "1.4rem", color: "#3d3a3a", padding: "20px 0", marginRight:"250px"}}>Internee.pk kickstart student's tech careers with first internships, providing industry exposure, practical skills, and networking opportunities, paving the way for their success in the tech industry.</p>
-          <div style={{display: "flex", alignItems: "center", gap: 20}}>
+          <div style={{display: "flex", alignItems: "center", gap: 20, margin: "10px 0"}}>
             <div><img src={herologo1} alt="herologo1" style={{width: "100%"}}/></div>
             <div><img src={herologo2}  alt="herologo2" style={{width: "100%"}}/></div>
             <div><img src={herologo3}  alt="herologo3" style={{width: "100%"}}/></div>
           </div>
-          <div style={{margin: "23px 0", display: "flex" , gap: 30}}>
+          <div style={{margin: "50px 0", display: "flex" , gap: 30}}>
             <div>
               <Link to="#" className="navlink button1">Job Portal</Link>
               <p style={{fontSize: 12, margin: "20px 0", textAlign: 'center'}}><i>coming soon</i></p>
