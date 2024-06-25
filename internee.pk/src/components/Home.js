@@ -148,6 +148,7 @@ const Home = () => {
         ]}
       />
       <WhyInternee />
+      div>
     </div>
   );
 };
