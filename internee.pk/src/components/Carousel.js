@@ -13,6 +13,7 @@ import technicalWriting from '../assets/young-woman-teaching-english-lessons.web
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Emoji from "react-emoji-render";
 
 const Carousel = () => {
   const setting = {
@@ -101,20 +102,26 @@ const Carousel = () => {
   ];
 
   return (
-    <div style={{backgroundColor: "#43A724", padding: "50px 50px 25px", borderRadius: 20}}>
-      <Slider {...setting} style={{padding: "10px 0 10px 20px"}}>
-      {
-        cards.map((card, index) => (
-          <Card 
-          key={index}
-          image={card.image}
-          title={card.title}
-          description={card.description}
-          />
-        ))
-      }
-      </Slider>
-      <h2 style={{color: "white", textAlign: "center", marginTop: 40, fontSize: "1.9rem"}}>Learn skills, <strong>Market will be yours.</strong></h2>
+    <div>
+      <div>
+       <h3 style={{marginBottom: 50, textAlign: "center"}}><Emoji text="👇" style={{fontSize: 30}}/> Click Below and grab your internship now <Emoji text="👇" style={{fontSize: 30}}/></h3>
+      </div>
+      <div style={{backgroundColor: "#43A724", padding: "50px 50px 25px", borderRadius: 20}}>
+        <Slider {...setting} style={{padding: "10px 0 10px 20px"}}>
+        {
+          cards.map((card, index) => (
+            <Card 
+            key={index}
+            image={card.image}
+            title={card.title}
+            description={card.description}
+            apply={true}
+            />
+          ))
+        }
+        </Slider>
+        <h2 style={{color: "white", textAlign: "center", marginTop: 40, fontSize: "1.9rem"}}>Learn skills, <strong>Market will be yours.</strong></h2>
+      </div>
     </div>
   );
 }
