@@ -26,6 +26,8 @@ import speedUpDesignIcon from '../assets/checkbox-multiple-marked-outline.svg';
 import communicationEasierIcon from '../assets/account-multiple-plus-outline.svg';
 import addChangesFasterIcon from '../assets/order-bool-ascending-variant.svg';
 import WhyInternee from "./WhyInternee";
+import Reviews from "./Reviews";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -148,7 +150,8 @@ const Home = () => {
         ]}
       />
       <WhyInternee />
-      div>
+      <Reviews />
+      <Footer />
     </div>
   );
 };
