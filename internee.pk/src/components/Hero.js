@@ -8,7 +8,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
-    <div>
+    <section>
       <div id="heroContainer">
         <div>
           <h1 style={{fontSize: "3.3rem" }}>Looking for Dream <br />Internship?</h1>
@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
       </div>
       
-    </div>
+    </section>
   );
 }
 

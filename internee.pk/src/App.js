@@ -1,7 +1,9 @@
 import React from "react";
-import Home from "./components/Home";
 import { Route, Routes } from "react-router";
 import { BrowserRouter } from "react-router-dom";
+import Home from "./components/Home";
+import Registeration from "./components/Registeration";
+
 
 
 function App() {
@@ -9,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/registeration" element={<Registeration />} />
       </Routes>
     </BrowserRouter>
   );

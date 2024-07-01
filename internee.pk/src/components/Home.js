@@ -1,15 +1,19 @@
+import React from "react"; 
 import Header from "./Header";
 import Hero from "./Hero";
 import Intro from "./Intro";
 import Carousel from "./Carousel";
 import Blog from "./Blog";
 import LeftShowcase from "./LeftShowcase";
+import RightShowcase from "./RightShowcase";
+import WhyInternee from "./WhyInternee";
+import Reviews from "./Reviews";
+import Footer from "./Footer";
 import taskImage from '../assets/task.webp';
 import handOnProjectIcon from '../assets/presentation-play.svg';
 import howToRepresentYourselfIcon from '../assets/account-multiple-plus-outline.svg';
 import sdlcTechniqueIcon from '../assets/cellphone-link.svg';
 import easyToUnderstandIcon from '../assets/playlist-check.svg';
-import RightShowcase from "./RightShowcase";
 import lmsImage from '../assets/lms.png';
 import sellCoursesAndEarnIcon from '../assets/cloud-check-outline.svg';
 import certificationIcon from '../assets/magnify-plus-outline.svg';
@@ -25,9 +29,6 @@ import mobilefriendlyIcon from '../assets/cellphone-link.svg';
 import speedUpDesignIcon from '../assets/checkbox-multiple-marked-outline.svg';
 import communicationEasierIcon from '../assets/account-multiple-plus-outline.svg';
 import addChangesFasterIcon from '../assets/order-bool-ascending-variant.svg';
-import WhyInternee from "./WhyInternee";
-import Reviews from "./Reviews";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
