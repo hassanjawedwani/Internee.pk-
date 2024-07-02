@@ -73,4 +73,12 @@ button {
 button:hover {
   cursor: pointer;
   background-color: #1B1B32;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.error {
+  margin: 3px 0;
+  background-color: red;
+  padding: 2px;
+}
+
+
